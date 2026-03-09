@@ -59,6 +59,14 @@ h2 {
   }
 }
 
+h2 span {
+  font-size: 0.6em;
+}
+
+h3 span {
+  font-size: 0.6em;
+}
+
 .service,
 .works,
 .flow {
