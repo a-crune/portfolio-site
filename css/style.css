@@ -86,6 +86,11 @@ h3 span {
   margin:auto;
 }
 
+.service li span {
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
 .service li,
 .strength li {
   margin-bottom:10px;
