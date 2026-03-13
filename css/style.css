@@ -143,6 +143,41 @@ h3 span {
   }
 }
 
+.works-details {
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+  margin-top: 40px;
+  padding: 24px 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+@media screen and (max-width: 768px) {
+  .works-details {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 24px;
+  }
+}
+
+.works-content,
+.works-period {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.works-content h3,
+.works-period h3 {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.works-content li {
+  list-style-position: inside;
+  font-size: 0.9em;
+}
+
+/* flow */
 .flow ol {
   max-width:400px;
   margin:auto;
@@ -180,6 +215,7 @@ h3 span {
   transform: translateY(-50%);
 }
 
+/* contact */
 .contact {
   text-align:center;
   background:#fafafa;
