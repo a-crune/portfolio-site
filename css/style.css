@@ -12,6 +12,14 @@ a:hover {
   opacity: 0.8;
 }
 
+h2 {
+  margin-bottom:20px;
+}
+
+p {
+  line-height:1.8;
+}
+
 body {
   font-family: 'Noto Sans JP', sans-serif;
   margin:0;
@@ -140,6 +148,13 @@ h3 span {
 
 .works-grid .work p {
   margin-top: 0;
+}
+
+.works-grid .work p.explanation {
+  padding: 0 4px;
+  text-align: justify;
+  font-size: 0.8em;
+  letter-spacing: -0.05em;
 }
 
 .work img {
