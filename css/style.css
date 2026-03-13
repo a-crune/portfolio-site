@@ -177,6 +177,10 @@ h3 span {
   font-size: 0.9em;
 }
 
+.works-content li span {
+  font-size: 0.7em;
+}
+
 /* flow */
 .flow ol {
   max-width:400px;
