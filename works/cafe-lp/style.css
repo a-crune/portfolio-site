@@ -237,6 +237,11 @@ a:hover {
 .concept-txt {
   flex: 1;
 }
+@media (max-width: 768px) {
+  .concept-txt {
+    text-align: justify;
+  }
+}
 
 .concept-txt .en {
   margin-top: 40px;
