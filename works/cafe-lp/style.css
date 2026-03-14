@@ -212,7 +212,7 @@ a:hover {
 }
 
 .menu-item h3 {
-  margin: 0;
+  margin: 10px 0 5px;
   text-align: center;
   font-family: "Zen Kaku Gothic New", sans-serif;
   letter-spacing: -.1em;
