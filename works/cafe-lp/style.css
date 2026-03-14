@@ -69,11 +69,19 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: inherit;
 }
 
 .header h1 {
   margin: 0;
-  font-size: 24px;
+  font-size: 1.3em;
+  font-weight: 500;
+  letter-spacing: .05em;
+}
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.1em;
+  }
 }
 
 .header h1 a {
@@ -86,6 +94,11 @@ a:hover {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+@media (max-width: 768px) {
+  .nav ul {
+    font-size: 0.9em;
+  }
 }
 
 .nav li a {
@@ -128,6 +141,7 @@ a:hover {
 @media (max-width: 768px) {
   .about-area {
     flex-direction: column;
+    text-align: justify;
   }
 }
 
