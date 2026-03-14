@@ -220,7 +220,7 @@ a:hover {
 .menu-item .menu-txt {
   margin-top: 8px;
   padding: 0 16px;
-  text-align: left;
+  text-align: justify;
   font-size: 0.9em;
 }
 
