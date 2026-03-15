@@ -195,6 +195,11 @@ h2 {
   }
 }
 
+.concept-pic img {
+  width: 100%;
+  border-radius: 8px;
+}
+
 /* style */
 .style {
   background-color: rgba(246, 226, 232, 0.3);
