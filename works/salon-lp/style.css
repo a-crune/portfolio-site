@@ -32,7 +32,9 @@ margin: 0;
 
 img {
   max-width: 100%;
+  width: 100%;
   height: auto;
+  display: block;
 }
 
 a {
@@ -91,9 +93,18 @@ a:hover {
 .section {
   padding: 80px 0;
 }
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+}
 
 h2 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+p {
+  line-height: 1.8;
 }
 
 .orange {
@@ -229,7 +240,6 @@ h2 {
 }
 
 .concept-txt p {
-  line-height: 1.8;
   font-family: var(--font-family-jp);
 }
 @media (max-width: 768px) {
@@ -247,6 +257,13 @@ h2 {
   width: 100%;
   border-radius: 8px;
   box-shadow: 4px 4px 15px -2px #bababa;
+}
+
+@media (max-width: 768px) {
+  .concept-pic {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 /* style */
@@ -638,12 +655,13 @@ h2 {
 .cta-button {
   display: inline-block;
   margin-top: 20px;
-  padding: 15px 40px;
+  padding: 16px 42px;
   font-family: var(--font-family-jp);
   font-size: 0.9em;
   letter-spacing: 0.1em;
+  background: linear-gradient(45deg,#e8a5b5,#a43a58);
   color: #fff;
-  background: #a43a58;
+  border-radius: 30px;
 }
 @media (max-width: 768px) {
   .cta-button {
@@ -678,9 +696,5 @@ h2 {
 
   .staff-grid {
     grid-template-columns: 1fr;
-  }
-
-  .section {
-    padding: 60px 0;
   }
 }
