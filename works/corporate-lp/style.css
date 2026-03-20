@@ -481,6 +481,11 @@ nav ul {
   margin: 0 auto;
   border-collapse: collapse;
 }
+@media (max-width:768px) {
+  .price-table {
+    width: 100%;
+  }
+}
 
 .price-table th,
 .price-table td {
